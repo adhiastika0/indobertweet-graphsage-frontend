@@ -135,20 +135,6 @@ export default function CommentThread({
                         {comment.comment}
                       </p>
                       <div className='flex items-center gap-4 mt-2'>
-                        <div className='flex items-center gap-2'>
-                          <Image
-                            src='/icon/warning.svg'
-                            alt='Warning Icon'
-                            width={16}
-                            height={16}
-                          />
-                          <p className='text-sm'>
-                            Total Laporan:{' '}
-                            <span className='font-bold'>
-                              {comment.reported}
-                            </span>
-                          </p>
-                        </div>
                         {comment.prediction === 1 &&
                           comment.confidence > 0.5 && (
                             <div className='flex items-center gap-2'>

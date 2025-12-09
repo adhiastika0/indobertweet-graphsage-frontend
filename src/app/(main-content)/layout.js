@@ -11,7 +11,7 @@ export default function MainLayout({ children }) {
     <div className='flex flex-col h-screen overflow-hidden'>
       <Topbar onToggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
       <div className='flex flex-1 overflow-auto'>
-        <Sidebar isOpen={isSidebarOpen} />
+        {/* <Sidebar isOpen={isSidebarOpen} /> */}
         <main className='flex-1 bg-[#f3f3f3]'>{children}</main>
       </div>
     </div>

@@ -12,13 +12,13 @@ const ROLE_TYPES = {
     text: 'Moderator',
     color: 'text-[#2563EB]',
     bg: 'bg-[#EBF4FF]',
-    dot: '⚡',
+    dot: '•',
   },
   owner: {
     text: 'Pemilik Channel',
     color: 'text-[#ED2B2A]',
     bg: 'bg-[#FFEAEA]',
-    dot: '👑',
+    dot: '•',
   },
   loading: {
     text: 'Loading...',

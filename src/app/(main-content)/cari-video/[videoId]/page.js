@@ -221,18 +221,6 @@ export default function VideoDetails() {
               {/* Tombol hanya untuk moderator dan owner */}
               {['moderator', 'owner'].includes(userData.role) && (
                 <>
-                  <CustomButton
-                    text={'Daftar Situs Judi'}
-                    style={{ gap: '0.2rem' }}
-                    variant='outline'
-                  >
-                    <Image
-                      src='/icon/gambling.svg'
-                      alt='Gambling Icon'
-                      width={18}
-                      height={18}
-                    />
-                  </CustomButton>
 
                   <CustomButton
                     text={'Hapus Komentar'}
